@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import Ch1 from './Ch1';
+import Ch2 from './Ch2';
+import Ch3 from './Ch3';
+import Ch4 from './Ch4';
+import Ch5 from './Ch5';
+import Ch6 from './Ch6';
+import Ch7 from './Ch7';
+import Ch8 from './Ch8';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // comment and uncomment the following lines in order 
+    // to access each chapter
+
+    <div>
+
+      <Ch1 />
+      {/* <Ch2 /> */}
+      {/* <Ch3 /> */}
+      {/* <Ch4 /> */}
+      {/* <Ch5 /> */}
+      {/* <Ch6 /> */}
+      {/* <Ch7 /> */}
+      {/* <Ch8 /> */}
+
     </div>
   );
 }
